@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>测试网页</title>
+</head>
+
+<script type="text/javascript">
+		var jsInterface;
+
+		javascript: (function JsAddJavascriptInterface_() {
+			if(typeof(window.jsInterface) != 'undefined') {
+				console.log('window.jsInterface_js_interface_name is exist!!');
+			} else {
+				window.jsInterface = {
+					onButtonClick: function(arg0) {
+						return prompt(JSON.stringify({
+							obj: 'cjc',
+							func: 'printTestInfo',
+							args: [arg0]
+						}));
+					} 
+				};
+			}
+		})()
+
+        function callJS(){
+           alert("Android调用了JS的callJS方法");
+        }
+
+</script>
+
+<body>
+<label>xxxxxx</label>
+<button type="button" onclick="jsInterface.onButtonClick('hello webview')">点击触发</button>
+<br>
+<a href="www.baidu.com">百度一下啊</a>
+</body>
+
+</html>

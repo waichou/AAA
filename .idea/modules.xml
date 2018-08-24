@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AAA.iml" filepath="$PROJECT_DIR$/AAA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glide_module/glide_module.iml" filepath="$PROJECT_DIR$/glide_module/glide_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_share_project/login_share_project.iml" filepath="$PROJECT_DIR$/login_share_project/login_share_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_channel/multi_channel.iml" filepath="$PROJECT_DIR$/multi_channel/multi_channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils_moudle/utils_moudle.iml" filepath="$PROJECT_DIR$/utils_moudle/utils_moudle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view_traget/view_traget.iml" filepath="$PROJECT_DIR$/view_traget/view_traget.iml" />
+    </modules>
+  </component>
+</project>

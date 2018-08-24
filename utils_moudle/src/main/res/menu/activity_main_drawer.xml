@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_list_id"
+        android:icon="@mipmap/ic_launcher"
+        android:title="system"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_launcher"
+                android:title="login"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_login2"
+                android:icon="@drawable/ic_launcher"
+                android:title="loginout"
+                app:showAsAction="never" />
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_launcher"
+                    android:title="home"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/nav_discover"
+                    android:icon="@drawable/ic_launcher"
+                    android:title="discover"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/nav_shop"
+                    android:icon="@drawable/ic_launcher"
+                    android:title="shop"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

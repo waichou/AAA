@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_result_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示处理结果"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="insert2Db"
+            android:text="添加数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="delete2Db"
+            android:text="删除数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="update2Db"
+            android:text="更新数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="query2Db"
+            android:text="查询数据" />
+
+        <!-- 加密访问 -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="entrcptInsert"
+            android:text="存储加密数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="deleteInsert"
+            android:text="删除加密数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="updateEntrcpt"
+            android:text="更新加密数据" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="queryEntrcpt"
+            android:text="查询加密数据" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff0000"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="one2one"
+            android:text="一对一插入" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="one2oneForDel"
+            android:text="一对一删除" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="one2More"
+            android:text="一对多" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="more2More"
+            android:text="多对多" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff0000"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="upgradeForDB"
+            android:text="升级数据表" />
+
+
+    </LinearLayout>
+</ScrollView>

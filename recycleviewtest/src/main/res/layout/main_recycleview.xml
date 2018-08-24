@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#cccccc"
+        android:padding="10px" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/scroll_ed_id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="scrollToPositionClick"
+                android:text="滚动到指定位置" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!-- -->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/recycle_attach_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="testAttachForSetAdapter" />
+
+            <Button
+                android:id="@+id/recycle_add_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add datas" />
+
+            <Button
+                android:id="@+id/recycle_delete_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delete datas" />
+
+            <Button
+                android:id="@+id/recycle_update_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="update datas" />
+
+            <Button
+                android:id="@+id/recycle_pl_update_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mulit update datas" />
+
+            <Button
+                android:id="@+id/recycle_pl_add_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mulit add datas" />
+
+            <Button
+                android:id="@+id/recycle_pl_delete_data_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mulit delete datas" />
+
+            <!-- 如果itemView中包含有图片的情况，调用notifyItemRangeChanged(int positionStart, int itemCount, Object payload) -->
+            <Button
+                android:id="@+id/recycle_notify_include_img_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="include img update" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

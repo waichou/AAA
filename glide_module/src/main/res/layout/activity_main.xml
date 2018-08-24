@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.glide.module.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getNetworkImgClick"
+            android:text="获取图片" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载网络图片" />
+
+
+        <ImageView
+            android:id="@+id/load_network_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载本地图片" />
+
+
+        <ImageView
+            android:id="@+id/load_local_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载资源图片" />
+
+
+        <ImageView
+            android:id="@+id/load_resource_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载二进制文件图片" />
+
+
+        <ImageView
+            android:id="@+id/load_imputstrem_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载Uri图片" />
+
+
+        <ImageView
+            android:id="@+id/load_uri_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载asset图片" />
+
+
+        <ImageView
+            android:id="@+id/load_asset_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载raw图片" />
+
+
+        <ImageView
+            android:id="@+id/load_raw_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e2e2e2" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="testPlaceholder"
+            android:text="占位图" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试占位图" />
+
+
+        <ImageView
+            android:id="@+id/load_placeholder_image_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e2e2e2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="testTransformImg"
+            android:text="图形变换 for cache all" />
+
+
+        <ImageView
+            android:id="@+id/load_croptransform_image0_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loadCircleImageClick"
+            android:text="加载原形图片" />
+
+        <ImageView
+            android:id="@+id/load_croptransform_image1_id"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clearCacheClick"
+            android:text="清除缓存" />
+
+    </LinearLayout>
+
+</ScrollView>

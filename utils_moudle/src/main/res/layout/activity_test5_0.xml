@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.framworks.base.example.toolbar.ToolbarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toobar_id"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@mipmap/ic_launcher"
+        app:popupTheme="@style/OverflowMenuStyle"
+        app:title="标题"
+        app:titleTextAppearance="@style/Toolbar_TextAppearance_White" />
+
+
+</LinearLayout>

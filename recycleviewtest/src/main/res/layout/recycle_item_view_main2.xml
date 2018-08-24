@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="5px">
+
+    <LinearLayout
+        android:id="@+id/root2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recycleview_item_selector"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/man_650_1003" />
+
+        <TextView
+            android:id="@+id/id_text2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="11111111111111111111111"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

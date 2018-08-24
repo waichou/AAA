@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/incule_root_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ffff"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/incule_btn_id_1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:background="#ff0000"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/incule_btn_id_2"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:background="#ffff00"
+        android:text="1" />
+
+</LinearLayout>

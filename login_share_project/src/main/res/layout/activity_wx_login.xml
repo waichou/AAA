@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WXLogin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateTokenAndUserinfoClick"
+        android:text="UpdateTokenAndUserinfoClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearCacheClick"
+        android:text="clearCacheClick" />
+
+
+    <TextView
+        android:id="@+id/iv_wx_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111"
+        />
+    <ImageView
+        android:id="@+id/iv_wx_head"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:scaleType="center" />
+
+
+</LinearLayout>

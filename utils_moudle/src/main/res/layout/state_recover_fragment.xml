@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/state_recover_ed_id"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:gravity="left|top"
+        android:text="this is a frament1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/state_recover_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="jump 2 fragment2" />
+
+</LinearLayout>

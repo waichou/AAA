@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_git_hub"
+        android:icon="@mipmap/ic_launcher"
+        android:title="github" />
+
+    <item
+        android:id="@+id/action_blog"
+        android:icon="@mipmap/ic_launcher"
+        android:title="blog" />
+</menu>

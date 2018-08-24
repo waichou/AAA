@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="recycle_click">#ff0000</drawable>
+    <drawable name="recycle_click_default">#ffffff</drawable>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/text_f1_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="fragment跳fragment"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/text_f2_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="fragment传参fragment"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/text_f3_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="fragment传参Activity"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/text_f4_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="fragment传参Servcie"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/text_f5_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="fragmentRequestForSActivity"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+</ScrollView>

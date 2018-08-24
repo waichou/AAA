@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.retrofit2.RetrofitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForGetClick_1"
+            android:text="[get](headers+header+path+QueryMap)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForGetClick_2"
+            android:text="[get](url+query+http+hasBody)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForGetClick_3"
+            android:text="[get](单个Query+一键多值Query)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForGetClick_4_getImage"
+            android:text="[get](getImage)" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:background="#ff0000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick2"
+            android:text="[post](headers+header+path+QueryMap)" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick3"
+            android:text="[post](url+query+http+hasBody)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick1"
+            android:text="[post](单个Query+一键多值Query)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick4"
+            android:text="[post](upload multiple files 2 server \n first method)" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick5"
+            android:text="[post](upload multiple files 2 server \n second method)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reqForPostClick6"
+            android:text="[post](body user）" />
+
+        <ImageView
+            android:id="@+id/img_id"
+            android:layout_width="50px"
+            android:layout_height="50px" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
