@@ -9,9 +9,11 @@ package com.vincent.cloud.base;
  * @change
  * @chang time
  * @class describe
+ * 各种参数配置信息
  */
 
 public class Config {
+
 
     /**
      * QQ登录的APPID
