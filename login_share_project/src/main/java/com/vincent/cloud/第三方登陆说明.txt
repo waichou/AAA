@@ -1,0 +1,56 @@
+1.通用的activity + fragment 框架
+
+2.通用的recycleview的adapter
+
+3.通用的工具类
+
+4.QQ WeChat Sina的第三方登陆
+     
+  QQ:  开发请找 “腾讯开发平台”
+  
+       -->  开发平台官方地址 http://open.qq.com/  
+       -->  (QQ用户能力，即各个功能说明) http://wiki.open.qq.com/wiki/QQ%E7%94%A8%E6%88%B7%E8%83%BD%E5%8A%9B#1._QQ.E7.99.BB.E5.BD.
+
+       -->  (API调用说明) http://wiki.open.qq.com/wiki/mobile/API%E8%B0%83%E7%94%A8%E8%AF%B4%E6%98%8E#1.1_.E7.99.BB.E5.BD.95.2F.E6.A0.A1.E9.AA.8C.E7.99.BB.E5.BD.95.E6.80.81
+       --> 获取用户信息 http://wiki.open.qq.com/wiki/mobile/get_simple_userinfo 
+       
+       --> 在“应用管理”中创建应用：http://wiki.open.qq.com/wiki/mobile/API%E8%B0%83%E7%94%A8%E8%AF%B4%E6%98%8E#1.1_.E7.99.BB.E5.BD.95.2F.E6.A0.A1.E9.AA.8C.E7.99.BB.E5.BD.95.E6.80.81 
+           
+
+       --> SDK下载页 http://wiki.open.qq.com/wiki/mobile/SDK%E4%B8%8B%E8%BD%BD 
+
+       --> QQ测试账号：2281099590
+   
+       --> 找到“管理中心”后，分三步：1.先注册开发者申请信息（身份证）
+          【特别注意】在测试集成QQ登陆功能阶段不要提交审核，按照要求将相关信息保存即可进行开发测试！！！  
+          
+       客服：http://open.qq.com/support
+      
+       #################################
+       #腾讯云-乐固 测试账号 2281099590 
+        <1>在PC网页版的乐固进行加固的apk，是没有签名的apk。
+	<2>疑问：是否已经签名过的apk，能否重新签名？ 都会签名进去，但是apk的签名就不唯一了，“不要重复签名！”
+
+       
+	
+
+  WeChat:打开“微信开放平台” https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN&token=89032155604dbff6f601423a0f10f97e2bb94b95
+         选择“管理中心” https://open.weixin.qq.com/cgi-bin/applist?t=manage/list&page=0&num=20&openapptype=1&lang=zh_CN&token=89032155604dbff6f601423a0f10f97e2bb94b95
+	 选择“创建应用” -->> 填写相关信息 -->>提交审核 ！
+
+
+  Sina:
+
+
+  WeChat：如果一个没有过期的token的情况下，不应该允许重新去授权！为什么这么处理？没有过期，就不应该去再次授权！！！！！无用功！！！！
+          重新授权的节点：是在refresh_token过期后在重新授权！！
+  
+5.RxJava2 Retrofit2  网络框架工具
+
+6.OkHttpUtils 网络工具
+
+7.播放视频流技术
+
+8.
+
+762327e57a5c6c7a72951f30412b7370
