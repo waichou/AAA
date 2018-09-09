@@ -41,19 +41,21 @@ public class InnerDispatchEventActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ToastUtils.showShort("click is called!");
 
+                mListView.scrollBy(0,-distanceY);
                 //实现滑动到第一个item的top=0的位置上去，即listview的顶部
+//                mListView.setSelection(0);
 
                 //利用向上滑动过的偏移量滑动回去
                 //mListView.smoothScrollByOffset(-distanceY);
 
                 //滑动到position  距离top的偏移量  滑动所用的时间
-                mListView.smoothScrollToPositionFromTop(0,20,100);
+//                mListView.smoothScrollToPositionFromTop(0,20,100);
             }
         });
 
         mListView = findViewById(R.id.listView_id);
 
-        myListViewAdapter = new InnerListViewAdapter(this);
+        myListViewAdapter = new InnerListViewAdapter(this,mListView);
 
         mListView.setAdapter(myListViewAdapter);
 
@@ -65,7 +67,7 @@ public class InnerDispatchEventActivity extends AppCompatActivity {
 
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-                //这里获取的是Listview与父容器之间的距离
+                /*//这里获取的是Listview与父容器之间的距离
                 int top = view.getTop();
                 int bottom  = view.getBottom();
                 System.out.println("top=" + top + ",botttom="+ bottom);
@@ -108,7 +110,7 @@ public class InnerDispatchEventActivity extends AppCompatActivity {
                     }else{
                         bottomBtn.setVisibility(View.GONE);
                     }
-                }
+                }*/
             }
         });
     }

@@ -53,7 +53,7 @@ public class ListViewActivity extends AppCompatActivity {
 
         mListView = findViewById(R.id.listView_id);
 
-        myListViewAdapter = new InnerListViewAdapter(this);
+        myListViewAdapter = new InnerListViewAdapter(this,mListView);
 
         mListView.setAdapter(myListViewAdapter);
 

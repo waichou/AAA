@@ -41,7 +41,10 @@
              </intent-filter>
             -->
         </activity>
-        <activity android:name="com.test.add_root_view.AddRootViewActivity" />
+        <activity android:name="com.test.add_root_view.AddRootViewActivity" >
+
+
+        </activity>
 
         <!-- webview 相关 -->
         <activity
@@ -59,7 +62,7 @@
         <activity android:name="com.test.webview.WebViewMainActivity" />
 
         <activity android:name="com.test.event_dispatch.outer_method.OutDispatchEventActivity">
-            <!--<intent-filter>
+           <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -70,13 +73,15 @@
             android:name="com.test.event_dispatch.inner_method.InnerDispatchEventActivity"
             android:theme="@style/AppTheme.NoActionBar">
 
-        </activity>
-        <activity android:name="com.test.listview.ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name="com.test.listview.ListViewActivity">
+
         </activity>
     </application>
 

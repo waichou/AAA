@@ -19,11 +19,11 @@ import java.util.List;
  * Created by zhouwei on 2018/8/19.
  */
 
-public class InnerListViewAdapter2 extends BaseAdapter {
+public class InnerListViewAdapter extends BaseAdapter {
 
     private Context mContext;
     private ListView mParentView;
-    public InnerListViewAdapter2(Context context, ListView parentListView){
+    public InnerListViewAdapter(Context context, ListView parentListView){
         this.mContext = context;
         this.mParentView = parentListView;
     }
@@ -62,7 +62,7 @@ public class InnerListViewAdapter2 extends BaseAdapter {
 //            convertView = LayoutInflater.from(mContext).inflate(R.layout.event_listview, parent, false);
 //            ListView listView = convertView.findViewById(R.id.event_listview_id);
 
-            ViewPagerForListView listView = new ViewPagerForListView(mContext,mParentView);
+            CustomListView listView = new CustomListView(mContext,mParentView);
 //            ListView.LayoutParams layoutParams = new AbsListView.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT,200);
 //
 //            listView.setLayoutParams(layoutParams);
@@ -93,7 +93,7 @@ public class InnerListViewAdapter2 extends BaseAdapter {
         return convertView;
     }
 
-    private void initListView(final ViewPagerForListView listView) {//实现出一个局部的listview，在父listview中滑动
+    private void initListView(final CustomListView listView) {//实现出一个局部的listview，在父listview中滑动
 
         List<String> dataList = new ArrayList<>();
         for (int i = 0; i < 30; i++) {

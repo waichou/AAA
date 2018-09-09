@@ -21,25 +21,25 @@ import android.widget.TextView;
  * 既然指定的touch事件能进来，则表示就可以处理当前事件
  */
 
-public class ViewPagerForListView extends ListView {
+public class CustomListView extends ListView {
     private Context mContext;
     private Activity mActivity;
     private ListView mParentView;
 
-    public ViewPagerForListView(Context context, ListView parentListView) {
+    public CustomListView(Context context, ListView parentListView) {
         super(context);
         this.mContext = context;
         this.mActivity = (Activity) context;
         this.mParentView = parentListView;
     }
 
-    public ViewPagerForListView(Context context, AttributeSet attrs) {
+    public CustomListView(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.mContext = context;
         this.mActivity = (Activity) context;
     }
 
-    public ViewPagerForListView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomListView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.mContext = context;
         this.mActivity = (Activity) context;
